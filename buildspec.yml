@@ -1,0 +1,10 @@
+version: 0.2
+
+artifacts:
+  files:
+    - application.py
+    - requirements.txt
+    - templates/**/*
+    - src/**/*         # only if you're using model code
+    - .ebextensions/**/*  # optional, for EB config
+  discard-paths: no
